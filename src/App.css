@@ -1,0 +1,373 @@
+.landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 175px 87px;
+  gap: 11%;
+  
+  width: 100vw;
+  height: 100vh;
+  
+  background: linear-gradient(360deg, #C5C5C5 0%, rgba(197, 197, 197, 0) 79.63%);
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.landingText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  
+  margin-right: 15vw;
+  gap: 44px;
+
+  width: 27%;
+
+
+
+/* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Regular{
+  font-size: 5.5vh;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  
+}
+.Italic{
+  font-size: 5.5vh;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+}
+
+.landingInfo{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  width: calc(0.3*100vw);
+}
+
+.landingButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 24px;
+  gap: 10px;
+
+  width: 198px;
+  height: 60px;
+
+  background: #000000;
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+
+  /* actions */
+  cursor: pointer;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.landingButton:hover{
+  opacity: 0.8;
+  border-radius: 0.5em;
+}
+
+.landingImage{
+  height: 50vh;
+  width: auto;
+}
+.navBar{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 3px;
+  top: 0;
+  position: fixed;
+  background-color: white;
+
+  /* make a diffusion effect that is suddule but notciable */
+ 
+  opacity: .99;
+  
+  width: 100vw;
+  height: 10vh;
+}
+
+.navBar a{
+  text-decoration: none;
+  color: #000000;
+
+
+}
+.middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+  margin: auto;
+  gap: 5%;
+
+  width: 25vw;
+  height: 5vh;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.shop{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right : 0;
+  margin: 1vw;
+
+
+  width: 8.09vw;
+  height: 6.12vh;
+
+  background: #F5D649;
+  border-color: #F5D649;
+  /* remove shadow */
+  box-shadow: none;
+}
+
+.navBarLink{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 100% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+}
+
+.navBarLogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+  margin: 10px;
+  gap: .3vw;
+
+  width: auto;
+  height: 5vh;
+}
+.navBarLogoImageO{
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* move first elment of navbar logo closer */
+.navBarLogo > *:first-child{
+  margin-right: -.15vw;
+}
+
+.navBarLogo > *:sixth-child{
+  margin-left: -.2vw;
+}
+.navBarLogo :nth-child(7){
+  margin-left: -0.2vw;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  gap: 5vh;
+  align-items: flex-start;
+  width: 100vw;
+  height: auto;
+  background-color: #000000;
+  color: #ffffff;
+}
+.MainHeader{
+
+  display: flex;
+  padding: 0px;
+  margin-top: 3em;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 30px;
+
+  width: 100vw;
+  height: auto;
+
+  background: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.title{
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 6.5vh;
+
+  letter-spacing: 0.05em;
+
+  } 
+
+.MainHeader h2{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+.itallicsInfo{
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.MainHeader p{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+}
+.MainHeader h1{
+  text-align: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3em;
+  line-height: 6.5vh;
+
+  letter-spacing: 0.05em;
+}
+
+.textYellow{
+  color: #F5D649;
+  
+}
+.SecondHeader{
+
+  display: flex;
+  padding: 0px;
+  margin-top: 8.5em;
+  margin-left: 5vw;
+  justify-content: space-between;
+  gap: 30px;
+
+  width: 100vw;
+  height: 50vh;
+
+  background: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+
+.indestrieText{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10vw;
+  margin-top: 15vh;
+  justify-content: left;
+  align-items: left;
+}
+
+.indestrieText p{
+  width: 25vw;
+  margin: 2.5vh 0; 
+  
+}
+
+.goodForYouBottle{
+  margin: auto;
+  padding: auto;
+  width: 13vw;
+  margin-top: 5;
+
+}
+
+.consistancy{
+  margin-top: 8vh;
+  margin-right:40vh;
+
+}
+
+.consistancy p{
+  margin-top: 2vh;
+}
+.fingerPrint{
+  width: 35vh;
+  margin-left: 30vh;
+ 
+}
+.people{
+  
+  margin-right: 50vh;
+  margin-top: 15vh;
+  scale: 1.3;
+  
+}
+.problem{
+  margin-left: 25vh;
+  margin-top: 15vh;
+ 
+}
+.problem p{
+  margin-top: 5vh;
+  font-size: 1em;
+}
+.extraspace{
+  background-color: #000000;
+  height: 15vh;
+}
