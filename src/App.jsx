@@ -68,7 +68,7 @@ function App() {
             Designed for <span className='textYellow'>everyone.</span> 
           </h1>
           <h2>
-          At CoBiota, we create the world’s most useful <span className='itallicsInfo'>probiotics</span><br/> using the power of genetic engineering.
+          At CoBiota, we create the world’s most  <span className='itallicsInfo'>useful</span><br/> probiotics using the power of genetic engineering.
           </h2>
           <p>Here's why</p>
           <img className='arrowDown' src={arrowDown} alt="arrowDown"/>

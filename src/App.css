@@ -249,7 +249,7 @@ letter-spacing: 0.05em;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 3em;
+  font-size: 3.5em;
   line-height: 6.5vh;
 
   letter-spacing: 0.05em;
@@ -287,6 +287,22 @@ letter-spacing: 0.05em;
 
   letter-spacing: 0.05em;
 }
+
+.arrowDown{
+  animation: pulse 3s linear .5s infinite;
+}
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: .25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  
 
 .textYellow{
   color: #F5D649;
@@ -326,6 +342,7 @@ letter-spacing: 0.05em;
 .indestrieText p{
   width: 25vw;
   margin: 2.5vh 0; 
+  font-size: 1.5em;
   
 }
 
@@ -345,6 +362,7 @@ letter-spacing: 0.05em;
 
 .consistancy p{
   margin-top: 2vh;
+  font-size: 1.5em;
 }
 .fingerPrint{
   width: 35vh;
@@ -365,7 +383,7 @@ letter-spacing: 0.05em;
 }
 .problem p{
   margin-top: 5vh;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 .extraspace{
   background-color: #000000;
