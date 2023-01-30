@@ -396,7 +396,7 @@
   justify-content: center;
   align-items: center;
   padding: 84px 224px;
-  gap: 106px;
+  gap: 3vw;
 
   width: 100vw;
   height: 90vh;
@@ -429,7 +429,7 @@
   font-weight: 400;
   color: #ffffff;
 
-  font-size: 3.3em;
+  font-size: 3.1em;
 }
 .exploreContainer{
   display: flex;
@@ -465,7 +465,7 @@
   transform-origin: center;
   justify-content: center;
   align-items: center;
-  right: 2vw;
+  right: 32%;
   bottom: 3vh;
   padding: 10px 16px;
   gap: 40px;
