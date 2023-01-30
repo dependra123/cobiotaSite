@@ -558,3 +558,7 @@
   /* bold font */
   font-weight: 700;
 }
+/* antialise navBarLogoImage */
+.navBarLogoImage{
+  -webkit-font-smoothing: antialiased;
+}
