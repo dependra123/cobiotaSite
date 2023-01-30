@@ -111,8 +111,23 @@ function App() {
         </div>
         <div className='extraspace'></div>
 
+        <div className='emailSub'>
+          <div className='mission'>
+            <h1 className='missionText'>Join us in our mission to create a higher standard of probiotics</h1>
+          </div>
+          <div className='exploreContainer'>
+          <div className='explore'>
+            <p className='exploreText'>Explore the science of our first product, a cholesterol-lowering probiotic helping you live a more balanced life</p>
+            <button className='exploreButton'>Learn More</button>
+          </div>
+          <div className='explore'>
+            <p className='email'>Subscribe to our newsletter for updates on our science</p>
+            <input className='emailInput' type='text' placeholder='email'/>
+          </div>
+          </div>
+        </div>
         
-      
+        
 
     </div>
   )
