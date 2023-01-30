@@ -126,6 +126,31 @@ function App() {
           </div>
           </div>
         </div>
+        <div className='footer'>
+          {/* make the cobiota logo and in small text have privacy-policy beneath it  */}
+          <div className='footerLogo'>
+            <img className="navBarLogoImage" src={cobiota_letterC} alt="cobiota_letterC"/>
+            <img className="navBarLogoImage" src={cobiota_letterO} alt="cobiota_letterO"/>
+            <img className="navBarLogoImage" src={cobiota_letterB} alt="cobiota_letterB"/>
+            <img className="navBarLogoImage" src={cobiota_letterI} alt="cobiota_letterI"/>
+            <img className="navBarLogoImageO" src={cobiota_letterO2} alt="cobiota_letterO2" />
+            <img className="navBarLogoImage" src={cobiota_letterT} alt="cobiota_letterT"/>
+            <img className="navBarLogoImage" src={cobiota_letterA} alt="cobiota_letterA"/>
+            
+            <div className='logoLinks'>
+              <p className='copyRight'>© 2023 CoBiota</p>
+              <div className='links'>
+                <a href='404'>Privacy — Terms</a>
+              </div>
+            </div>
+            </div>
+            <div className='pageLinks'>
+              <a href='404'>About</a>
+              <a href='404'>Science</a>
+              <a href='404'>Shop</a>
+
+            </div>
+        </div>
         
         
 

@@ -525,3 +525,36 @@
 
 
 
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40vh;
+  padding: 9vh 8vw;
+  padding-right: 8vw;
+  
+}
+.logoLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  margin-top: 4vh;
+}
+
+.footer a{
+  color: #000000;
+  font-size: .9em;
+  font-weight: 400;
+  text-decoration: none;
+}
+.pageLinks{
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  
+ 
+}
+.pageLinks a{
+  /* bold font */
+  font-weight: 700;
+}
