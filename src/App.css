@@ -297,6 +297,7 @@
   }
   50% {
     opacity: .25;
+    scale: 1.2;
   }
   100% {
     opacity: 1;
@@ -312,7 +313,7 @@
 
   display: flex;
   padding: 0px;
-  margin-top: 8.5em;
+  margin-top: 5.5em;
   margin-left: 5vw;
   justify-content: space-between;
   gap: 30px;
@@ -343,6 +344,7 @@
   width: 25vw;
   margin: 2.5vh 0; 
   font-size: 1.5em;
+  font-weight: 200;
   
 }
 
@@ -363,6 +365,7 @@
 .consistancy p{
   margin-top: 2vh;
   font-size: 1.5em;
+  font-weight: 200;
 }
 .fingerPrint{
   width: 35vh;
@@ -385,6 +388,7 @@
 .problem p{
   margin-top: 5vh;
   font-size: 1.5em;
+  font-weight: 200;
 }
 .extraspace{
   background-color: #000000;
@@ -396,7 +400,7 @@
   justify-content: center;
   align-items: center;
   padding: 84px 224px;
-  gap: 1.4vw;
+  gap: 4vw;
 
   width: 100vw;
   height: 90vh;
@@ -415,7 +419,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 3vh 2.8vw;
+  padding: 7vh 2.8vw;
   padding-right: 2.8vw;
   gap: 10px;
 
@@ -431,7 +435,7 @@
   color: #ffffff;
   line-height: 140.62%;
 
-  font-size: 2.4em;
+  font-size: 2.6em;
 }
 .exploreContainer{
   display: flex;
