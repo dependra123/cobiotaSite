@@ -429,7 +429,7 @@
   font-weight: 400;
   color: #ffffff;
 
-  font-size: 3.8em;
+  font-size: 3.4em;
 }
 .exploreContainer{
   display: flex;
@@ -442,9 +442,9 @@
   position: relative;
   background-color: #ffffff;
   width: 22vw;
-  height: 29vh;
+  height: 34vh;
   padding: 4vh 3vw;
-  margin-top: 4.5vh;
+  margin-top: 4vh;
 
 }
 .exploreText{
@@ -466,7 +466,7 @@
   justify-content: center;
   align-items: center;
   right: 2vw;
-  bottom: 5vh;
+  bottom: 3vh;
   padding: 10px 16px;
   gap: 40px;
   
